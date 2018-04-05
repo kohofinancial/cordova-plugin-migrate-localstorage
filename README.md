@@ -19,7 +19,7 @@ cordova plugin add https://github.com/kohofinancial/cordova-plugin-migrate-local
 yet. This means that if you've run your app with `WKWebView` before this plugin will likely not work.
 To test if data is migrated over correctly:
     1. Delete the app from your emulator or device
-    2. Remove the `cordova-plugin-ionic-webview` and `https://github.com/kas84/cordova-plugin-migrate-localstorage` plugins
+    2. Remove the `cordova-plugin-ionic-webview` and `https://github.com/kohofinancial/cordova-plugin-migrate-localstorage` plugins
     3. Run your app and store some data in LocalStorage
     4. Add both plugins back
     5. Run your app again. Your data should still be there!
